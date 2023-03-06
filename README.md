@@ -1,13 +1,21 @@
 # Custom SB Themes
 
-A Firefox extension to allow for custom themes on skyblock.net.
+An extension to allow for custom themes on skyblock.net.
 
-## Installation
+## Installation (Firefox)
 
 1. Download this repository as a zip file.
 2. Unzip the file.
 3. Go to `about:debugging#/runtime/this-firefox` and click `Load Temporary Add-on...`
 4. Select the `manifest.json` file in the unzipped folder.
+5. Reload skyblock.net and go to the bottom of the page to change your theme.
+
+## Installation (Chrome)
+
+1. Download this repository as a zip file.
+2. Unzip the file.
+3. Go to `chrome://extensions/` and click `Load unpacked`, you may need to enable developer mode.
+4. Open the unzipped folder.
 5. Reload skyblock.net and go to the bottom of the page to change your theme.
 
 ## Adding a theme
