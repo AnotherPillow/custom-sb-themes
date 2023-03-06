@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "custom-sb-themes",
+  "version": "1.0",
+  "description": "Adds custom themes to Skyblock.net",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.skyblock.net/*"],
+      "js": ["themes.js"]
+    }
+  ]
+
+}
+
