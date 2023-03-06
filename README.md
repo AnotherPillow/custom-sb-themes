@@ -1,21 +1,31 @@
-# apply-css
+# Custom SB Themes
 
-**This add-on injects CSS into web pages. The `addons.mozilla.org` domain disallows this operation, so this add-on will not work properly when it's run on pages in the `addons.mozilla.org` domain.**
+A Firefox extension to allow for custom themes on skyblock.net.
 
-## What it does
+## Installation
 
-This extension includes:
+1. Download this repository as a zip file.
+2. Unzip the file.
+3. Go to `about:debugging#/runtime/this-firefox` and click `Load Temporary Add-on...`
+4. Select the `manifest.json` file in the unzipped folder.
+5. Reload skyblock.net and go to the bottom of the page to change your theme.
 
-* a background script, "background.js"
-* a page action
+## Adding a theme
 
-It adds the [page action](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/pageAction)
-to every tab the user opens. Clicking the page action
-for a tab applies some CSS using [tabs.insertCSS](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/insertCSS).
+1. Go to [this page](http://pillow.rocks/customsbthemes/)
+2. Put the CSS for your theme in the first text box.
+3. Choose whether it's based on the original theme or not (2012 or 2023)
+4. Enter a name for your theme.
+5. Enter a description for your theme.
+6. Click `Generate`
+7. Copy the output into the `Custom Theme JSON` box on the bottom of the page and click `Submit`
+8. Choose your theme from the themes menu on the bottom of the page.
 
-Clicking again removes the CSS using [tabs.removeCSS](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/removeCSS).
 
-## What it shows
+## In use
 
-* some basic page action functions
-* how to apply and remove CSS.
+![Theme menu with custom themes](https://i.imgur.com/rFXFwLG.png)
+
+![Theme addition area on new Skyblock design](https://i.imgur.com/5AEwRQ2.png)
+
+![Theme creation page](https://i.imgur.com/rGyNwUx.png)
