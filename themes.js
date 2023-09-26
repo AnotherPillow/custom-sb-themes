@@ -76,7 +76,7 @@ if (!document.body.innerHTML.includes('<a href="#">Created by Benj</a>')) {
     footerInputSubmit.style = 'height: 15px; margin-top:2px; width: 50px'
 
     footerInputSubmit.addEventListener("click", function() {
-        addNewTheme(folderInput)
+        addNewTheme(footerInput)
     })
     newFooterContent.appendChild(footerInput)
     newFooterContent.appendChild(footerInputSubmit)
