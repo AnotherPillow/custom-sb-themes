@@ -1,3 +1,7 @@
+# THIS IS DEPRECATED
+
+## PLEASE USE <https://github.com/anotherpillow/skyblock-extras> INSTEAD.
+
 # Custom SB Themes
 
 An extension to allow for custom themes on skyblock.net.
